@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #6f6e6e;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -64,5 +64,34 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+    color: var(--black-color);
+  }
+  .saas-lab-table tr:nth-child(even) {
+    background-color: var(--secondary-color);
+  }
+  .saas-lab-table tr:hover {
+    background-color: var(--hover-secondary-color);
+    transition: background-color 0.3s ease-in-out;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: var(--secondary-color);
+    background-color: #000000;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: var(--light-primary-color);
+    color: var(--white-color);
+  }
+  .saas-lab-table tr:nth-child(even) {
+    background-color: #282727;
+  }
+  .saas-lab-table tr:hover {
+    background-color: var(--hover-secondary-color);
+    transition: background-color 0.3s ease-in-out;
   }
 }

@@ -23,19 +23,10 @@
   padding: 0.5rem;
 }
 
-.saas-lab-table tr:nth-child(even) {
-  background-color: var(--secondary-color);
-}
-
 .saas-lab-table th {
   background-color: var(--primary-color);
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   color: var(--white-color);
-}
-
-.saas-lab-table tr:hover {
-  background-color: var(--hover-secondary-color);
-  transition: background-color 0.3s ease-in-out;
 }
 
 .saas-lab-table tr:hover td {
@@ -57,12 +48,12 @@
 
 @keyframes pulse {
   0% {
-    background-color: var(--secondary-color);
+    background-color: #5a5858;
   }
   50% {
-    background-color: #ccc;
+    background-color: #525151;
   }
   100% {
-    background-color: #f2f2f2;
+    background-color: #5a5858;
   }
 }

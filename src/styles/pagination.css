@@ -24,8 +24,8 @@
 .pagination__number {
   font-weight: 600;
   font-size: 1rem;
-  color: --light-bg-color;
-  background-color: transparent;
+  color: var(--light-bg-color);
+  background-color: inherit;
 }
 .pagination__number--active {
   color: var(--primary-color);
@@ -36,7 +36,6 @@
 .pagination__number,
 .pagination__arrow {
   padding: 1rem;
-  background-color: transparent;
 }
 
 .pagination__dots {
