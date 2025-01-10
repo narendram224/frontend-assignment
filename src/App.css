@@ -1,0 +1,22 @@
+:root {
+  --border-radius: 0.5rem;
+  --secondary-color: #f2f2f2;
+  --primary-color: #4338ca;
+  --white-color: #fff;
+  --hover-secondary-color: #ddd;
+  --light-bg-color: #d1d5db;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 600;
+}
