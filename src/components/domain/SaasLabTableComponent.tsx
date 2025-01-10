@@ -31,7 +31,7 @@ const SaasLabTableComponent = () => {
 
   return (
     <Container>
-      <h1 className="heading">Saas Lab Task project</h1>
+      <h1 className="heading">Saas Lab Task Project</h1>
       <Table
         caption="Saas Lab Table"
         headers={TABLE_HEADERS}
